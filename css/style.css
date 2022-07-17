@@ -49,15 +49,28 @@ div {
 }
 */
 
+.categ {
+    text-align: center;
+    background-color: orange;
+}
+
+button {
+    background-color: orange;
+}
+/* for the index*/
+
+
 body {
     font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
     color: black;
     background-color: beige;
+    align-content: center;
 }
 
 img {
+    display: flex;
+    justify-content: center;
     width: 300px; height: auto;
-    align-self: center;
 }
 
 .title {
@@ -68,3 +81,46 @@ img {
     color: aqua;
 }
 
+.ingredients {
+    background-color: aquamarine;
+    border-top: 5px solid green;
+    border-left: 5px solid green;
+    border-bottom: 2px rgb(4, 172, 4) groove;
+    border-right: 2px rgb(4, 172, 4) groove;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.preparation {
+    background-color: rgb(250, 188, 131);
+    border-top: 5px solid brown;
+    border-left: 5px solid brown;
+    border-bottom: 2px brown groove;
+    border-right: 2px brown groove;
+    width: 800px;
+}
+
+
+/* ignore for now
+
+li {
+    color:black;
+    border: 2px black solid;
+}
+
+li:nth-child(even) {
+    background-color: rgb(235, 235, 176);
+}
+
+li:nth-child(odd) {
+    background-color: yellow;
+}
+*/
+
+p {
+    background-color: rgb(18, 212, 18);
+}
+
+.rrr {
+    background-color: goldenrod;
+}
