@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    font-size: large;
+    color: cyan;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.pindot {
+    width: 10;
+    height: 10px;
+}
+
+span {
+    text-align: center;
+    font-size: larger;
+}
+
+.pic {
+    width: 100px; height: 100px;
+}
+
