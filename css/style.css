@@ -1,17 +1,15 @@
 .title {
     text-align: center;
     font-size: large;
-    color: cyan;
+    color: red;
+    border-left-color: red;
+    border-left-style: solid;
+    border-left-width: 6px;
 }
 
 img {
     width: 500px;
     height: auto;
-}
-
-.pindot {
-    width: 10;
-    height: 10px;
 }
 
 span {
@@ -23,3 +21,28 @@ span {
     width: 100px; height: 100px;
 }
 
+.menu {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(194, 237, 240);
+    width: 400px;
+    height: 400px;
+}
+
+.desc {
+    text-emphasis: em;
+}
+
+button {
+    margin-top: 7px;
+    align-content: center;
+    width: 380px; height: auto;
+    text-align: left;
+    border-left: 5px rgb(204, 41, 41) solid;
+    border-top: 5px rgb(204, 41, 41) solid;
+    background-color:bisque
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
